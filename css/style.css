@@ -1,0 +1,270 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Knockout 70 A","Knockout 70 B",Knockout,Arial,Helvetica;
+  letter-spacing: 1px;
+}
+.yao{
+  width: 60px;
+}
+header{
+  background-color: #051c2d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 450px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+h1{
+  font-size: 28px;
+  line-height: 3rem;
+  color:#383838;
+  font-weight:bold;
+}
+.fonctionnement {
+  text-align: center;
+  max-width: 100%;
+}
+.fonctionnement a {
+  text-decoration: none;
+  color: red;
+}
+
+.fonctionnement a:hover{
+   text-decoration: underline;
+   color:grey;
+ }
+ ul {
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   background-color: #f8f9fa;
+
+ }
+ ul li {
+  list-style-type: none;
+ }
+ li{
+   display: flex;
+   padding-left: 10px;
+   font-weight: bold;
+   color:#FF3345;
+ }
+ ul span {
+   margin-right: 10px;
+   font-family: 'Big Shoulders Display', cursive;
+   font-weight: bold;
+   font-size: 20px;
+ }
+ article.teams-logo {
+   overflow: auto;
+   white-space: nowrap;
+   padding-bottom: 40px;
+   background-color: #f8f9fa;
+ }
+ button.teams-logo{
+   display: inline-block;
+   flex-wrap: wrap;
+   text-align: center;
+   padding: 20px;
+ }
+ .teams-logo button{
+   background-color: white;
+   border: none;
+   cursor: pointer;
+   margin-left: 50px;
+ }
+ ::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+ .custom{
+   display: flex;
+   flex-wrap: wrap;
+   background: #f1f1f0;
+ }
+ .formulaire{
+
+   width: 50%;
+ }
+ .teams-jersey {
+width: 50%;
+text-align: center;
+
+ }
+ form{
+   padding-left: 150px;
+ }
+
+ .teams-jersey img {
+  width: 400px;
+}
+.imgbloc{
+  width: 400px;
+/*  background-color: orange;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 250px;
+  position: relative;
+  top:-390px;
+}
+#screen {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+}
+
+.teams-logo img{
+  width: 110px;
+}
+.teams-logo{
+  text-align: center;
+}
+form p {
+  color: #383838;
+
+}
+h2{
+  margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 3rem;
+  color:#383838;
+  font-weight:bold;
+}
+input {
+  padding: 0.5rem;
+  color: #383838;
+}
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+#btn-Preview-Image{
+  background-color: #D00909;
+}
+#btn-Preview-Image:hover{
+  background-color: #45a049;
+}
+input[type=button]:hover {
+  background-color: #45a049;
+}
+input[type=submit] {
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+input[type=submit]:hover{
+  background-color:#4CAF50;
+  color: white;
+}
+
+h3{
+/*  position: absolute;
+  top: 800px;
+  left: 230px;
+  color:white;*/
+  color: white;
+}
+h3 span{
+font-family: 'Big Shoulders Display', cursive;
+font-size: 100px;
+/*-webkit-text-stroke: 5px;
+-webkit-text-stroke-color: white;*/
+text-shadow: 6px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+color: #121111;
+font-size: 200px;
+
+}
+h3 p{
+font-family: 'Tourney', cursive;
+  font-size: 55px;
+}
+footer{
+  background-color: #051c2d;
+  margin-top: 40px;
+}
+footer i {
+  color: red;
+}
+footer a {
+  color: white;
+}
+footer div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 1000px){
+	/* tous les écrans avec une largeur maximale de 1000px
+  .yao {
+    width: 100%;
+  }*/
+  nav {
+    width: 100%;
+  }
+  ul{
+    width: 100%;
+  }
+
+  .formulaire{
+    width: 100%;
+  }
+
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 7%;
+  }
+
+  .teams-jersey {
+  width: 100%;
+  }
+  .teams-jersey img{
+  }
+  footer{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px){ /*mobile*/
+  ul{
+    width: 100%;
+  }
+
+  .formulaire{
+    width: 100%;
+  }
+  .teams-jersey {
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+}
