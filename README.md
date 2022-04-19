@@ -1,2 +1,2 @@
 # jersey-makers
-cette page web permet de créer un fond d'écran NBA selon le choix de votre équipe .
+Cette page web permet de créer un fond d'écran NBA personnalisé ( Nom et Numéro sur le maillot) selon le choix de votre équipe favorite.
